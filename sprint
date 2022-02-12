@@ -1,0 +1,4 @@
+#! /bin/bash
+source lib/sprint.sh
+
+main "$1"

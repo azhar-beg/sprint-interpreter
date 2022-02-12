@@ -47,7 +47,7 @@ function react_on_compare_instruction () {
 }
 
 function main () {
-    cells=( 1 15 14 14 1 13 0 13 2 14 16 0 99 0 0 6 30 )
+    cells=( $1 )
 
     index=0
 
@@ -69,5 +69,3 @@ function main () {
 
     echo ${cells[@]}
 }
-
-main

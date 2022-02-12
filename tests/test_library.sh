@@ -1,5 +1,5 @@
 #! /bin/bash
-source ../sprint.sh
+source ../lib/sprint.sh
 
 function declare_global_var (){
         RED="\033[1;31m"
@@ -60,6 +60,10 @@ function all_test_cases () {
     echo -e "\n${WHITE}React on compare instruction${NORMAL}"
     source react_on_compare_instruction.sh
     test_react_on_compare_instruction
+
+    echo -e "\n${WHITE}Main${NORMAL}"
+    source main.sh
+    test_main
 }
 
 declare_global_var
